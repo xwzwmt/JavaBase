@@ -1,0 +1,23 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈĞ¯å
+J
+java:S1481
+"(Remove this unused "mod" local variable.(³ã´üÿÿÿÿÿ8¡òòî.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¶ç8Ííî.
+k
+java:S1854	"IRemove this useless assignment to local variable "poisonPillPerProducer".(ı—ÊÚûÿÿÿÿ8ˆñî.
+Q
+java:S1481"/Remove this unused "poisonPill" local variable.(ßÉ—şÿÿÿÿ8˜óîî.
+Y
+java:S1854
+"7Remove this useless assignment to local variable "mod".(³ã´üÿÿÿÿÿ8¡òòî.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñéŒÂúÿÿÿÿ8Ííî.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏŸñˆ8Ííî.
+`
+java:S1854">Remove this useless assignment to local variable "poisonPill".(ßÉ—şÿÿÿÿ8˜óîî.
+V
+java:S1854"9Remove this useless assignment to local variable "BOUND".(ÏŸñˆ8Ííî.
+\
+java:S1481	":Remove this unused "poisonPillPerProducer" local variable.(ı—ÊÚûÿÿÿÿ8ˆñî.
+G
+java:S1481"*Remove this unused "BOUND" local variable.(ÏŸñˆ8Ííî.

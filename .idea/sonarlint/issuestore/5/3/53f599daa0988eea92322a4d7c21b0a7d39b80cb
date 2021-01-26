@@ -1,0 +1,17 @@
+
+x
+java:S3923	"[Remove this conditional structure or edit its code blocks so that they're not all the same.(¦ÑçÎ8¡ñ›æí.
+W
+java:S2209"5Change this instance-reference to a static reference.( Ž…Êùÿÿÿÿ8ÒÉ™æí.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¡Ø›Ìøÿÿÿÿ8ü¨…æí.
+^
+java:S3252"<Use static access with "java.lang.Thread" for "interrupted".( Ž…Êùÿÿÿÿ8ÒÉ™æí.
+W
+java:S2209"5Change this instance-reference to a static reference.( Ž…Êùÿÿÿÿ8ÒÉ™æí.
+X	java:S125"<This block of commented-out lines of code should be removed.(¨ëÜ¦8éÈ’æí.
+^
+java:S3252"<Use static access with "java.lang.Thread" for "interrupted".( Ž…Êùÿÿÿÿ8ÒÉ™æí.
+X	java:S125
+"<This block of commented-out lines of code should be removed.(ÈÀ²Ó8¡ñ›æí.
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ýþ8”Šåí.

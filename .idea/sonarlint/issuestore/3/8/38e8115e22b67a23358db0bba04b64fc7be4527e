@@ -1,0 +1,8 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸¾¬ƒùÿÿÿÿ8šµÈïñ.
+[
+java:S1128">Remove this unused import 'org.junit.jupiter.api.DynamicTest'.(ûàëÁ8šµÈïñ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ÿ¸õ8šµÈïñ.
+_
+java:S1128"BRemove this unused import 'spring_javaConfig.service.UserService'.(±‹™û8–‚øññ.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ûß†æ8šµÈïñ.

@@ -1,0 +1,15 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ª»ξόÿÿÿÿ8¶φΐέμ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(«β» 8¶φΐέμ.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ª»ξόÿÿÿÿ8¶φΐέμ.
+`
+java:S2276""CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(―ϊ™ϊ8¶φΐέμ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(«β» 8¶φΐέμ.
+`
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(―ϊ™ϊ8¶φΐέμ.
+c
+java:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€8¶φΐέμ.
+]
+java:S1128"@Remove this unused import 'java.util.concurrent.CountDownLatch'.(¤ƒτ§8ζ„Τέμ.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€8¶φΐέμ.

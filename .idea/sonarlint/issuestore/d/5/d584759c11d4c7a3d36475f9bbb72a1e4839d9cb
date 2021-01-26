@@ -1,0 +1,8 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÎ†áùÿÿÿÿ8§‡ûï.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ì‘ƒĞ8©²ìşï.
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(¼ï¶Ñ8²Éçşï.
+`
+java:S1128"ERemove this unused import 'com.sun.media.jfxmediaimpl.MediaDisposer'.(¼ï¶Ñ8£ğçşï.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ä–Ô’øÿÿÿÿ8¾íşï.

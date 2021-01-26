@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--    扫描包
+设置扫描包base-package
+排除扫描：<context:exclude-filter 设置需要排除扫描的选项
+<context:include-filter 设置需要包含扫描的选项
+type:
+1、annotation 默认。根据注解的完整限定名设置排除/包括
+2、assignable 根据类的完整限定名设置排除/包括
+3、aspectj	org.example..*Service+	根据切面表达式
+4、regex	org\.example\.Default.*	要由目标组件类名匹配的正则表达式。
+5、custom	org.example.MyTypeFilter	org.springframework.core.type .TypeFilter接口的自定义实现。
+包含扫描：-->
+    <context:component-scan base-package="spring_annotation">
+<!--        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+<!--        <context:include-filter type="assignable" expression="spring_annotation.dao.UserDao"/>-->
+    </context:component-scan>
+
+
+<!--    AOP命名空间 就可以使用切片-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+<!--    引入外部资源文件-->
+<!--<context:property-placeholder location="db.properties"></context:property-placeholder>-->
+</beans>

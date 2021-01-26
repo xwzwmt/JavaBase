@@ -1,0 +1,22 @@
+
+f
+java:S2674"JCheck the return value of the "read" call to see how many bytes were read.(±ñÔ8şùÂò.
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(Áªø8ûÔïò.
+W
+java:S1128"5Remove this unused import 'java.lang.reflect.Method'.(Í“¯äüÿÿÿÿ8¦™ïò.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(•ê‰–úÿÿÿÿ8âŸò.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ñıÿÿÿÿ
+Q
+java:S3740B"/Provide the parametrized type for this generic.(¡ıê¢úÿÿÿÿ8âŸò.
+\
+java:S1161!":Add the "@Override" annotation above this method signature(ÿ£Áçüÿÿÿÿ8„ÅŸò.
+D
+java:S1481%"'Remove this unused "t0" local variable.(ÆÅŸ…8«ê¨ò.
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(©´Ùªüÿÿÿÿ8ñí„ò.
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¤—Ôè8§¸¿ò.
+S
+java:S1854%"6Remove this useless assignment to local variable "t0".(ÆÅŸ…8«ê¨ò.
+P
+java:S1874C"3Remove this use of "newInstance"; it is deprecated.(¢£šø8âŸò.

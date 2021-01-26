@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    bean的加载顺序从上到下,depends-on可以添加依赖关系,改变加载顺序,可以用逗号设置多个-->
+    <bean class="spring_ioc.Person" name="person" depends-on="wife"></bean>
+    <bean class="spring_ioc.Wife" name="wife"></bean>
+
+<!--    懒加载
+所有的bean都是在容器初始化的时候加载好了,希望某个bean在使用的时候才去加载-->
+    <bean class="spring_ioc.Person" name="person1" lazy-init="true"></bean>
+    <bean class="spring_ioc.Wife" name="wife1" lazy-init="true"></bean>
+
+<!--    作用域scope
+1.singleton 默认值,单例,同一个id始终只会创建一次.单例会有线程安全问题.多线程读写最好使用多例
+2.prototype 原型,多例,每一次使用都会创建一个bean-->
+
+
+<!--    一般的方式干扰不了bean加载但是,下列方法可以
+静态工厂方法实例化bean
+实例方法实例化bean-->
+<!--  静态工厂方法实例化bean，只需要调用当前bean中的静态方法即可  -->
+    <bean class="spring_ioc.Person" name="person2" factory-method="createPersonFactory"></bean>
+<!--    实例方法实例化bean 需要生产另外的bean注入-->
+    <bean class="spring_ioc.PersonFactory" id="personFactory"></bean>
+    <bean class="spring_ioc.Person" id="person3" factory-bean="personFactory" factory-method="createPersonFactoryMethod"></bean>
+</beans>

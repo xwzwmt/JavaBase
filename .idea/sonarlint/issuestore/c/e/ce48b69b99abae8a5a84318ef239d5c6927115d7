@@ -1,0 +1,11 @@
+
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€8Æ¸ìëì.
+S
+java:S1068"1Remove this unused "cyclicBarrier" private field.(±Ÿ­šûÿÿÿÿ8‹ÉŠìì.
+K
+java:S1068")Remove this unused "state" private field.(Õ¡ŸĞÿÿÿÿÿ8Æ¸ìëì.
+{	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰ãŸÅøÿÿÿÿ8Æ¸ìëì.
+e
+java:S1128"HRemove this unused import 'java.util.concurrent.BrokenBarrierException'.(§ø€ÿ8¾–‹ìì.
+]	java:S125"<This block of commented-out lines of code should be removed.(¡¹ò›úÿÿÿÿ8ê×‹ìì.

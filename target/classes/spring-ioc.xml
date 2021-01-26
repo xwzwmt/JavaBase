@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--设置别名-->
+    <alias name="user" alias="user3"></alias>
+    <bean class="spring_ioc.User" id="user" name="name1 name2">
+        <description>描述一个bean是干嘛的</description>
+    </bean>
+<!--import导入其他spring 的xml配置文件-->
+<!--    <import resource=""></import>-->
+
+<!--    ********************************************依赖注入-->
+<!--基于setten方法的依赖注入-->
+    <bean class="spring_ioc.User" id="user6">
+<!--        name属性对应set方法 的名字，setId->name="id" setXXX->name="XXX"-->
+        <property name="id" value="1"></property>
+        <property name="username" value="wmt"></property>
+        <property name="realname" value="tyj"></property>
+    </bean>
+
+<!--    通过构造函数来进行依赖注入
+1、基于name属性设置构造函数参数
+2、可以只有value属性（基于默认索引）
+3、可以使用显示索引index
+-->
+    <bean class="spring_ioc.User" id="user7">
+        <constructor-arg name="id" value="1"></constructor-arg>
+        <constructor-arg name="username" value="王大桃"></constructor-arg>
+        <constructor-arg name="realname" value="唐狗君"></constructor-arg>
+    </bean>
+<!--    复杂数据类型的配置=========================================
+1、如果泛型是基本数据类型<value>
+2、如果泛型是bean <bean>
+-->
+    <bean class="spring_ioc.Person" id="person1">
+        <property name="id" value="1"></property>
+        <property name="hobiles">
+            <list>
+                <value>唱歌</value>
+                <value>跳舞</value>
+            </list>
+        </property>
+        <property name="course">
+            <map>
+                <entry value="java" key="1"/>
+                <entry value="spring" key="2"/>
+            </map>
+        </property>
+<!--        外部bean可以复用，内部bean，别的bean就引用不到-->
+        <property name="wife" ref="wife"></property>
+    </bean>
+    <bean class="spring_ioc.Wife" name="wife">
+        <property name="name" value="肖战"></property>
+    </bean>
+
+<!--    p命名空间====================================
+1、简化基于setter属性注入的xml配置
+2、不支持复杂数据类型-->
+    <bean class="spring_ioc.Person" name="person2" p:id="2" p:wife-ref="wifewyb"></bean>
+    <bean class="spring_ioc.Wife" name="wifewyb" p:name="王一博">
+    </bean>
+
+<!--    c命名空间====================================
+1、简化基于构造哈数注入的xml配置
+2、不支持复杂数据类型-->
+    <bean class="spring_ioc.Wife" name="wifezyl" c:name="朱一龙"></bean>
+</beans>

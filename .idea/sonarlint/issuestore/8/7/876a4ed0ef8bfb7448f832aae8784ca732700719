@@ -1,0 +1,14 @@
+
+H
+java:S1068"+Remove this unused "counter" private field.(“–¬ƒ8Ç±í×ì.
+X	java:S125"<This block of commented-out lines of code should be removed.(ÏËÓž8½›Á²ì.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹‰¸®ÿÿÿÿÿ8Ç±í×ì.
+N
+java:S1602'",Remove useless curly braces around statement(ˆî‡¼üÿÿÿÿ8·€¸µë.
+N
+java:S1612'",Replace this lambda with a method reference.(ˆî‡¼üÿÿÿÿ8·€¸µë.
+c
+java:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ðï°µë.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’³ÞÈ8Ç±í×ì.
+W	java:S125"<This block of commented-out lines of code should be removed.(÷–q8Ç±í×ì.

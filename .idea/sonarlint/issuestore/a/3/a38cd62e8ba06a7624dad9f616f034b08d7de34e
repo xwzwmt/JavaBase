@@ -1,0 +1,14 @@
+
+]	java:S1254"<This block of commented-out lines of code should be removed.(İš†åüÿÿÿÿ8ˆ—šğñ.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ûß†æ8ˆ—šğñ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¤Å·½8ˆ—šğñ.
+X	java:S125%"<This block of commented-out lines of code should be removed.( ¹š8ˆ—šğñ.
+W
+java:S1128"5Remove this unused import 'java.lang.reflect.Method'.(Í“¯äüÿÿÿÿ8ˆ—šğñ.
+X	java:S125,"<This block of commented-out lines of code should be removed.(íæ8ˆ—šğñ.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(‘­Ü8ˆ—šğñ.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(±å†Äüÿÿÿÿ8ˆ—šğñ.
+U	java:S106."9Replace this use of System.out or System.err by a logger.(ÿññ·8ˆ—šğñ.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(µ¤õ£8ˆ—šğñ.
+X	java:S125"<This block of commented-out lines of code should be removed.( ¹š8ˆ—šğñ.

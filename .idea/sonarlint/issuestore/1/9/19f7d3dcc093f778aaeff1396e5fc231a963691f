@@ -1,0 +1,9 @@
+
+B
+java:S1604"(Make this anonymous inner class a lambda(Œód8òĞÒï.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Íÿ×˜8òĞÒï.
+y
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Á™úÿÿÿÿ8œç‡Òï.
+r	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÃà´úÿÿÿÿ
+X
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8âÛ†Òï.
